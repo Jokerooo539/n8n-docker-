@@ -36,7 +36,7 @@ services:
       - key: DB_POSTGRESDB_USER
         value: postgres.fxzuaasradtrbqmghayk
       - key: DB_POSTGRESDB_PASSWORD
-        sync:false
+        sync: false
       - key: DB_POSTGRESDB_SCHEMA
         value: public
       - key: DB_POSTGRESDB_SSL_ENABLED
